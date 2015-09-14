@@ -11,14 +11,14 @@
 // });
 //
 //
-Txbb.Map.selectLocaton({
-    location: {
-        cityName : '南京',
-        lat: 31.9790589,
-        lng: 118.7565708,
-        address: '江苏省南京市雨花台区软件大道丰盛商汇6栋314室南京云智信息科技有限公司'
-    }
-});
+// Txbb.Map.selectLocaton({
+//     location: {
+//         cityName : '南京',
+//         lat: 31.9790589,
+//         lng: 118.7565708,
+//         address: '江苏省南京市雨花台区软件大道丰盛商汇6栋314室南京云智信息科技有限公司'
+//     }
+// });
 //
 //
 // Txbb.Map.selectLocaton({
