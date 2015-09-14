@@ -1,0 +1,14 @@
+{
+  "name": "txbb-map",
+  "version": "0.1.0",
+  "description": "Map Component for Txbb.",
+  "main": "txbb-map.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "map", "txbb"
+  ],
+  "author": "zhangyang",
+  "license": "MIT"
+}
