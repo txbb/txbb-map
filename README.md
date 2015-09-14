@@ -1,6 +1,11 @@
 # Txbb.Map
 同学帮帮地图组件
 
+## Demo
+选择：[http://txbb.github.io/txbb-map/test/selectLocation.html](http://txbb.github.io/txbb-map/test/selectLocation.html)
+
+只读：[http://txbb.github.io/txbb-map/test/?lat=32.060125&lng=118.792073&address=江苏省南京市雨花台区软件大道丰盛商汇6栋314室南京云智信息科技有限公司](http://txbb.github.io/txbb-map/test/?lat=32.060125&lng=118.792073&address=%E6%B1%9F%E8%8B%8F%E7%9C%81%E5%8D%97%E4%BA%AC%E5%B8%82%E9%9B%A8%E8%8A%B1%E5%8F%B0%E5%8C%BA%E8%BD%AF%E4%BB%B6%E5%A4%A7%E9%81%93%E4%B8%B0%E7%9B%9B%E5%95%86%E6%B1%876%E6%A0%8B314%E5%AE%A4%E5%8D%97%E4%BA%AC%E4%BA%91%E6%99%BA%E4%BF%A1%E6%81%AF%E7%A7%91%E6%8A%80%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8)
+
 ## 依赖的服务
 [高德地图](http://lbs.amap.com/api/javascript-api/reference/summary/)
 
