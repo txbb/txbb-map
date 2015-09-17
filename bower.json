@@ -1,10 +1,13 @@
 {
   "name": "txbb-map",
   "main": "txbb-map.js",
-  "version": "0.2.0",
   "authors": [
     "zhangyang <px.zhangyang@gmail.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/txbb/txbb-map.git"
+  },
   "description": "同学帮帮地图组件",
   "keywords": [
     "map",
