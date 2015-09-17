@@ -19,6 +19,9 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "LICENSE",
+    "package.json",
+    "README.md"
   ]
 }
