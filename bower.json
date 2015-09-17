@@ -23,5 +23,8 @@
     "LICENSE",
     "package.json",
     "README.md"
-  ]
+  ],
+  "devDependencies": {
+    "requirejs": "~2.1.20"
+  }
 }

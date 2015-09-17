@@ -4,10 +4,20 @@
  * 0.2
  * by zhangyang
  */
-(function() {
+(function(factory) {
     'use strict';
 
-    if (!window.Txbb) window.Txbb = {};
+    if (typeof define !== 'undefined' && define.amd) {
+        define('Txbb/Map', function() {
+            return factory.call(null);
+        });
+    } else {
+        if (!window.Txbb) window.Txbb = {};
+        window.Txbb.Map = factory();
+    }
+
+}(function() {
+    'use strict';
 
     // helps
     function q(s) {return document.querySelector(s);}
@@ -389,5 +399,5 @@
     var map = new Map();
     map.open();
 
-    window.Txbb.Map = map;
-}());
+    return map;
+}));

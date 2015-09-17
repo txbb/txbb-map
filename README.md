@@ -17,6 +17,27 @@
 2. 选择一个位置然后获取位置信息
 3. 获得用户当前的位置信息
 
+## 调用
+
+### Global模式
+```javascript
+// do something with Txbb.Map
+Txbb.Map.selectLocation({});
+```
+
+### RequreJS模式
+```javascript
+requirejs.config({
+    paths: {
+        'Txbb/Map': '../txbb-map'
+    }
+});
+require(['Txbb/Map'], function(TxbbMap) {
+    // do somethin with TxbbMap
+    TxbbMap.selectLocation({});
+});
+```
+
 ## API
 
 ### 1. 通过URL地址栏访问之后显示地理位置
