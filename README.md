@@ -49,7 +49,7 @@ Txbb.Map.selectLocation(options);
 ```
 #### options
 - confirm: 获取数据的回调函数，接收一个`object`类型参数，包含位置信息
-- location: 默认显示的位置信息，可以包含经纬度数据(`location.lng`, `location.lat`)，城市名称(`location.city`)
+- location: 默认显示的位置信息，可以包含经纬度数据(`location.lng`, `location.lat`)，地点名称(`location.address`)
 - readonly: 代表地图是不是只读的
 
 ### 3. 获得当前的位置信息

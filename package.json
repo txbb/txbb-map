@@ -1,6 +1,5 @@
 {
   "name": "txbb-map",
-  "version": "0.2.0",
   "description": "Map Component for Txbb.",
   "main": "txbb-map.js",
   "scripts": {

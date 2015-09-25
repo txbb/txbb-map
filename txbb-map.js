@@ -1,7 +1,7 @@
 /**
  * Txbb.Map 组件
  *
- * 0.2
+ * 0.3.1
  * by zhangyang
  */
 (function(factory) {
@@ -125,6 +125,7 @@
         left: 0,
         width: window.innerWidth + 'px',
         height: '62px',
+        margin: 0,
         'z-index': 11,
         'background-color' : 'rgba(0,0,0,.8)',
         'line-height' : '1.5',
@@ -286,7 +287,7 @@
            - location (object)
            - readonly (boolean)
          ===============*/
-        selectLocaton: function(options) {
+        selectLocation: function(options) {
             _initMapCtn();
 
             var location = options.location;
@@ -383,7 +384,7 @@
             var lat = requestParameter('lat');
             var address = requestParameter('address');
             if (lng && lat && address) {
-                map.selectLocaton({
+                map.selectLocation({
                     location: {
                         lng: lng,
                         lat: lat,
